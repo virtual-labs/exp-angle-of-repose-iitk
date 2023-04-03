@@ -1,0 +1,9 @@
+
+/home/runner/work/exp-angle-of-repose-iitk/exp-angle-of-repose-iitk/experiment/simulation/js/question.js
+  2:7  warning  'quiz' is assigned a value but never used  no-unused-vars
+
+/home/runner/work/exp-angle-of-repose-iitk/exp-angle-of-repose-iitk/experiment/simulation/js/script.js
+  224:10  error  Parsing error: Identifier 'task1' has already been declared
+
+✖ 2 problems (1 error, 1 warning)
+

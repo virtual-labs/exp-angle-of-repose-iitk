@@ -1,0 +1,56 @@
+{
+  "version": 2.0,
+  "questions": [
+    {
+      "question": "1. What are rhe factors that affect angle of repose?",
+      "answers": {
+        "a": "Properties of particles",
+        "b": "Density of particle",
+        "c": "Weight of particle",
+        "d": "None of the above"
+      },
+      "explanations": {
+        "a": "Explanation 1  <a href='www.google.com'>here</a>",
+        "b": "Explanation 2",
+        "c": "Explanation 2",
+        "d": "Explanation 2"
+      },
+      "correctAnswer": "a",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "2. Which powder has a much higher angle of repose",
+      "answers": {
+        "a": "Moist powder",
+        "b": "Dry powder",
+        "c": "Both a and b",
+        "d": "None of these"
+      },
+      "explanations": {
+        "a": "Explanation 1  <a href='www.google.com'>here</a>",
+        "b": "Explanation 2",
+        "c": "Explanation 2",
+        "d": "Explanation 2"
+      },
+      "correctAnswer": "b",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "3. Angle of repose is used for",
+      "answers": {
+        "a": "Desiging of processing",
+        "b": "Storage",
+        "c": "Conveying system of particulate matter",
+        "d": "None of these"
+      },
+      "explanations": {
+        "a": "Explanation 1  <a href='www.google.com'>here</a>",
+        "b": "Explanation 2",
+        "c": "Explanation 2",
+        "d": "Explanation 2"
+      },
+      "correctAnswer": "d",
+      "difficulty": "beginner"
+    }
+  ]
+}

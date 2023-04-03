@@ -1,0 +1,39 @@
+{
+  "version": 2.0,
+  "questions": [
+    {
+      "question": "1. The angle of repose gives the ______ for any given powder sample.?",
+      "answers": {
+        "a": "Flow property of powder",
+        "b": "Viscosity",
+        "c": "Porosity",
+        "d": "Bulkiness"
+      },
+      "explanations": {
+        "a": "Explanation 1  <a href='www.google.com'>here</a>",
+        "b": "Explanation 2",
+        "c": "Explanation 2",
+        "d": "Explanation 2"
+      },
+      "correctAnswer": "a",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "2. Angle of repose is used for____",
+      "answers": {
+        "a": "Desiging of processing ",
+        "b": "Storage",
+        "c": "conveying system of particulate matter",
+        "d": "All of the above"
+      },
+      "explanations": {
+        "a": "Explanation 1  <a href='www.google.com'>here</a>",
+        "b": "Explanation 2",
+        "c": "Explanation 2",
+        "d": "Explanation 2"
+      },
+      "correctAnswer": "d",
+      "difficulty": "beginner"
+    }
+  ]
+}
