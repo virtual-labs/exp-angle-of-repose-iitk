@@ -1,13 +1,146 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-	<!-- Add CSS at the head of HTML file -->
-    <link rel="stylesheet" href="./css/main.css">
+<link rel="icon" href="images/miet.jpg" type="image/jpg" sizes="14x16">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Experiment-3</title>
+<link rel="stylesheet" href="css/test.css" />
 </head>
 <body>
-		<!-- Your code goes here-->
+    <div class="container">
+        <div class="header" style="text-align:center;">
+			<p><h1> Experiment 3 - Angle Of Repose</h1></p>
+        </div>
+        <div class="wrapper clearfix">
+            <div class="nav">
+                <ul>
+                    <li><div class="var"><h1>Variable</h1></div></li>
+                </ul><br><br>
+				
+				
+				<tab0></tab0><tab0></tab0><tab0></tab0><button id="add_graph" onclick="add_graph()">Add Graph Paper</button><br><br>
+				
+				<label style="color:darkblue;"><b><h2>Select Powder (5g):</h2></b></label><br>
+				<input type="radio" id="p1" name="powder" value="1">
+                <label for="p1" style="line-height:1.7; font-size: 15px;"><b>Nimesulide</b></label><br>
+                <input type="radio" id="p2" name="powder" value="2">
+                <label for="p2" style="line-height:1.7; font-size: 15px;"><b>Lactose</b></label><br>
+				<input type="radio" id="p3" name="powder" value="3">
+                <label for="p3" style="line-height:1.7; font-size: 15px;"><b>Paracetamol</b></label><br>
+                <input type="radio" id="p4" name="powder" value="4">
+                <label for="p4" style="line-height:1.7; font-size: 15px;"><b>Micro crystalline cellulose</b></label><br>
+                <input type="radio" id="p5" name="powder" value="5">
+                <label for="p5" style="line-height:1.7; font-size: 15px;"><b>Sodium carboxy methyl cellulose</b></label><br><br>
+				
+				<label style="color:darkblue;"><b><h2>Select Concentration of Glidant:</h2></b></label><br>
+				<input type="radio" id="tap10" name="conc" value="1">
+                <label for="tap10" style="line-height:1.6; font-size: 16px;"><b>0%</b></label><br>
+				<input type="radio" id="tap500" name="conc" value="2">
+                <label for="tap500" style="line-height:1.6; font-size: 16px;"><b>2%</b></label><br>
+				<input type="radio" id="tap1250" name="conc" value="3">
+                <label for="tap1250" style="line-height:1.6; font-size: 16px;"><b>5%</b></label><br><br>
+				
+				<tab0></tab0><tab0></tab0><tab0></tab0><button id="add_powder" onclick="start_animation()">Add Powder</button><br>
+				
+				<tab0></tab0><tab0></tab0><tab0></tab0><button id="show_graph" onclick="show_graph()">Show Graph Paper</button><br>
+				<tab0></tab0><tab0></tab0><tab0></tab0><button id="obsv" onclick="observation_table()">Observation Table</button><br>
+				<tab0></tab0><tab0></tab0><tab0></tab0><button id="reset" onclick="reset()">Reset</button>
+            </div>
+            <div class="section">
+                <h2>Welcome to our Virtual Lab</h2>
+			<div id="stand">
+			<?xml version="1.0" encoding="utf-8"?>
+<svg width="233px" height="560px" viewBox="0 0 233 560" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <filter filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB" id="filter_1">
+      <feFlood flood-opacity="0" result="BackgroundImageFix" />
+      <feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape" />
+      <feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha" />
+      <feOffset dx="0" dy="4" />
+      <feGaussianBlur stdDeviation="1.5" />
+      <feComposite in2="hardAlpha" operator="arithmetic" k2="-1" k3="1" />
+      <feColorMatrix type="matrix" values="0 0 0 0 0.3921569 0 0 0 0 0.3921569 0 0 0 0 0.3921569 0 0 0 0.4980392 0" />
+      <feBlend mode="normal" in2="shape" result="effect0_innerShadow" />
+    </filter>
+  </defs>
+  <g id="Group-7" transform="translate(2.018585 2.018616)">
+    <g id="Group-6">
+      <g id="Group-4">
+        <g id="g3000" transform="matrix(-1 0 0 1 227.9921 0)">
+          <g filter="url(#filter_1)">
+            <path d="M0 31.1022L38.8629 0L220.235 0.658327L179.417 31.1022L1.14156e-05 31.1022L0 31.1022Z" transform="translate(3.886292 511.0518)" id="path2728" fill="#411515" fill-opacity="0.831372559" stroke="#000000" stroke-width="2" />
+          </g>
+          <path d="M0 43.0723L185.897 42.414L227.992 9.37658L227.832 0" transform="translate(0 510.0942)" id="path2730" fill="none" stroke="#000000" stroke-width="2" />
+          <path d="M1.99501 0L0 11.6708" transform="translate(183.9622 540.199)" id="path2732" fill="none" stroke="#000000" stroke-width="2" />
+          <path d="M1.99501 0L0 12.3093" transform="translate(1.294739 542.7926)" id="path2734" fill="none" stroke="#000000" stroke-width="2" />
+          <path d="M0 0L9.71591 0L9.71591 529.217L0 529.217L0 0Z" transform="translate(31.6532 0)" id="rect2736" fill="#3E0C0C" stroke="#000000" stroke-width="2" />
+          <path d="M1.99501 22.8269L0 0" transform="translate(21.11816 391.3636)" id="path2851" fill="none" stroke="#000000" stroke-width="4.0372" />
+          <path d="M0 0L90 0" transform="translate(24.2489 402.7771)" id="path2855" fill="none" stroke="#000000" stroke-width="4" />
+          <path d="M15.5731 0L19.6948 0L19.6948 19.6948L15.5731 19.6948M5.49625 19.6948L0 19.6948L0 0L5.72569 0" transform="translate(114.6299 392.9297)" id="rect2995" fill="#000000" stroke="#000000" stroke-width="1" />
+          <path d="M0 35.8305C0.0199544 35.4116 0.0997567 33.7358 0.219453 32.1397L0.398997 29.1871L19.9501 14.6035C30.7232 6.58358 39.5412 0 39.601 0C39.6409 0 39.6609 1.2369 39.6609 2.73316L39.6609 5.46632L24.0798 17.6958C15.5013 24.419 6.58355 31.4215 4.24939 33.2569L1.52207e-05 36.5886L1.52207e-05 35.8304L0 35.8305Z" transform="translate(186.1765 513.0867)" id="path2998" fill="#000000" stroke="#000000" stroke-width="1" />
+        </g>
+      </g>
+    </g>
+    <g id="Group-5" transform="translate(43 290)">
+      <g id="Group">
+        <path d="M52.79 160L52.79 90.3541L0 0" transform="translate(0 10)" id="path2748" fill="none" stroke="#000000" stroke-width="2" />
+        <path d="M0 158L0 87.9188L47.79 0" transform="translate(66.21002 12)" id="path2750" fill="none" stroke="#000000" stroke-width="2" />
+        <path d="M0 0.319209C3.07033 1.05735 4.01596 4.76807 11.0125 0" transform="translate(54.00012 168.61)" id="path2752" fill="none" stroke="#000000" stroke-width="2" />
+        <path d="M110.761 10.4515C110.93 14.1749 100.412 17.6291 83.2079 19.5C66.0041 21.3709 44.7592 21.3709 27.5553 19.5C10.3515 17.6291 -0.166774 14.175 0.00200153 10.4515C-0.16669 6.72815 10.3515 3.27401 27.5553 1.40314C44.7591 -0.467734 66.0039 -0.467734 83.2077 1.40314C100.411 3.27398 110.93 6.72812 110.761 10.4515L110.761 10.4515Z" transform="translate(3 0)" id="path2761" fill="none" stroke="#000000" stroke-width="2" />
+      </g>
+    </g>
+  </g>
+</svg>
+</div>
 
-	<!-- Add JS at the bottom of HTML file --> 
-        <script src="./js/main.js"></script>
+
+
+<div id="graph1">
+
+</div>
+
+<div id="salt_heap">
+
+</div>
+
+<div id="funnel_salt">
+
+</div>
+
+<div id="spoon">
+</div>	
+
+
+<div id="drop">
+</div>
+
+
+
+<div id="graph2">
+
+</div>
+
+<div id="arrow">
+
+</div>
+<div id="arrow2">
+</div>
+<div id="arrow_text"></div>
+<div id="graph_text1"></div>
+<div id="graph_text2"></div>
+<div id="graph_text3"></div>
+<div id="question_box"></div>
+<div id="image_area">
+
+<img src="images/table.jpeg" style="height:14rem; width:18rem;">
+</div>
+<div id="result_table"></div>
+        </div>
+        <div class="footer">
+        </div>
+    </div>
+<script src="js/question.js" charset="utf-8"></script>
+<script src="js/script.js"></script>
 </body>
 </html>
