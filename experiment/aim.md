@@ -1,1 +1,1 @@
-#### The aim of the experiment is to determine the Angle of repose and the effect of lubricants/glidants on the flow ability of powder.
+To determine the angle of repose of a given granular material, which reflects its flowability and cohesiveness.
