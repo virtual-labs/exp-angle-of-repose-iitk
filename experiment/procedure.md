@@ -1,6 +1,6 @@
 <b>Materials Required:</b><br>
 ● Granular powder (e.g., talc, starch, sand)<br>
-● Funnel
+● Funnel<br>
 ● Stand with clamp<br>
 ● Graph paper or plain paper<br>
 ● Ruler or scale<br>
