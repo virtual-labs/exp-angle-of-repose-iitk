@@ -1,1 +1,1 @@
-## Angle of repose and effect of lubricants/ glidants on flow property of powder.
+## Determination of Angle of Repose of a Granular Material
