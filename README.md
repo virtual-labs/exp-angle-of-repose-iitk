@@ -1,41 +1,57 @@
-## Introduction (Round 0)
+## Introduction
 
-<b>Discipline | <b> Pharmacy
+
+<b>Discipline | <b>Pharmacy
 :--|:--|
-<b> Lab | <b> Physical Pharmaceutics
-<b> Experiment|     <b>3. Angle of repose determination and effect of glidants/ lubricants on flow property of powders.
-<h5> About the Lab (Objective) :</h5>The Practical course of this lab is completely focused on perceiving the physicochemical phenomenon and characteristics which effects the formulation of pharmaceutical dosage forms and systems.
-<h5> About the Experiment:</h5>
-Flow property of powders is the important characteristic to be considered for the formulation of several dosage forms like tablets etc , for filling of capsules, bottles and vials and also in dry powder mixing. Angle of repose determination is one of the most reliable and convenient method by which flowability can be determined. By the addition of several glidants or lubricant the flowability can be improved hence, angle of repose can also be used to optimize the concentration of these additives.
-<h5> Target Audience:</h5>
-Pharmacy Students
-<h5> Course Alignment:</h5>
- B. Pharm
-<h5> Universities Mapped : </h5>
-AKTU
+<b> Lab | <b> PHYSICAL PHARMACEUTICAL LAB II
+<b> Experiment|     <b> 9. Angle of repose and effect of Glidants/ lubricants on flow property of Powders
 
-<b>Name of Developer | <b> Rupali Sharma
+### About the Lab (objective):
+
+The Physical Pharmaceutics Lab provides knowledge to determine viscosity, particle size and distribution, sedimentation behavior, stability, and powder flow characteristics. Study about Instruments such as Ostwald’s and Brookfield’s viscometers, sieve shaker, microscope, Andreasen pipette, bulk and tapped density apparatus, and angle of repose will be done. It is designed to enable students to understand the influence of physical parameters on formulation performance, stability, and processability, thereby linking theoretical concepts with practical applications in pharmaceutical technology.
+
+### About the Experiment 
+
+This experiment involves determining the angle of repose of powders and studying the effect of glidants or lubricants on their flow properties. It helps assess the flowability and cohesiveness of powder materials, which are critical in pharmaceutical and food formulations. The analysis provides insight into how additives improve powder flow, aiding in the design of efficient handling, mixing, and tablet manufacturing processes.
+
+### Target Audience:
+
+Pharmacy students, faculty members & industry persons
+
+### Course Alignment:
+
+This lab is aligned with core and applied courses such as Physical Pharmaceutics, Dispersion Systems, and Rheology. It reinforces theoretical concepts related to viscosity, particle size analysis, and micromeritics, supporting students’ understanding of formulation behavior, stability, and performance of pharmaceutical dosage forms. The experiments strengthen practical skills essential for designing, evaluating, and optimizing pharmaceutical products and processes.
+
+### Universities Mapped:
+
+• Dr. A.P.J. Abdul Kalam Technical University, Lucknow <br>
+• Banaras Hindu University (BHU), Varanasi <br>
+• Jamia Hamdard University, New Delhi <br>
+• Dr. Harisingh Gour Vishwavidyalaya (Central University), Sagar <br>
+• Panjab University, Chandigarh <br>
+• Jadavpur University, Kolkata <br>
+• Bundelkhand University, Jhansi <br>
+• Savitribai Phule Pune University (SPPU), Pune <br>
+• Osmania University, Hyderabad <br>
+• Annamalai University, Chidambaram <br>
+• Rajiv Gandhi Proudyogiki Vishwavidyalaya (RGPV), Bhopal <br>
+• Gujarat Technological University (GTU), Ahmedabad <br>
+• NIT Rourkela – Department of Biotechnology and Medical Engineering  <br>
+• IIT (BHU), Varanasi – School of Biochemical and Pharmaceutical Engineering <br>
+
+
+<b>Name of Developer | <b> Dr. Shashi Alok 
 :--|:--|
-<b> Institute | <b> Meerut Institute of Engineering and Technology
-<b> Email id|     <b> rupali.sharma@miet.ac.in
-<b> Department | Department of Pharmaceutical Technology
+<b> Institute | <b>  Bundelkhand University, Jhansi
+<b> Email id|     <b>  drshashialok@gmail.com
+<b> Department |  <b> Department of Pharmacy
 
-#### Mentor Details
-
-<b>Mentored by | <b> Arvind Pandey
-:--|:--|
-<b> Institute | <b> Meerut Institute of Engineering and Technology
-<b> Email id|     <b> arvind.pandey@miet.ac.in
-<b> Department | Department of Electronics and communication
-
-#### Contributors List
+### Contributors List
 
 SrNo | Name | Faculty or Student | Department| Institute | Email id
 :--|:--|:--|:--|:--|:--|
-1 |Rupali Sharma |Faculty|Department of Pharmaceutical Technology |Meerut Institute of Engineering and Technology, Meerut |rupali.sharma@miet.ac.in
-2 |Avnika Agarwal |Student| Department of Pharmaceutical Technology | Meerut Institute of Engineering and Technology, Meerut |avnika.agarwal.bp.2017@miet.ac.in
-3 |Samarth Anand |Student|Computer Science| Meerut Institute of Engineering and Technology, Meerut |samarth.anand.cs.2018@miet.ac.in
-4 |Nikunj Jain |Student|Information Technology | Meerut Institute of Engineering and Technology, Meerut |nikunj.jain.it.2018@miet.ac.in
-5 |Akash Chaudhary |Student| Information Technology | Meerut Institute of Engineering and Technology, Meerut | akash.chaudhary.it.2018@miet.ac.in
-
-<br>
+1 |Dr. Shashi Alok | Faculty| Department of Pharmacy |  BU Jhansi| drshashialok@gmail.com
+2 |Er. Anjali Srivastava | Faculty| Food Technology | Institute of Engineering & Institute Technology, BU Jhansi|fetbujhansi@gmail.com
+3 |Dr. Anupam Vyas | Faculty| Electronics & Communication Engineering | Institute of Engineering & Institute Technology, BU Jhansi|dr.anupam@bujhansi.ac.in
+4 |Dr. Sanjeev Kumar Shrivastava | Faculty| Physics |  BU Jhansi|sksphys7@gmail.com
+5 |Arjun Singh| Student| Department of Mathematics statistics and Computer Application | BU Jhansi |singha66324@gmail.com
