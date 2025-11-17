@@ -2,37 +2,88 @@
   "version": 2.0,
   "questions": [
     {
-      "question": "1. The angle of repose gives the ______ for any given powder sample.?",
+      "question": "1. The angle of repose is defined as:",
       "answers": {
-        "a": "Flow property of powder",
-        "b": "Viscosity",
-        "c": "Porosity",
-        "d": "Bulkiness"
+        "a": "The angle between two adjacent particles",
+        "b": "The angle between a funnel and the surface",
+        "c": "The angle between the horizontal surface and the slope of a pile of powder",
+        "d": "The angle formed by the radius and the base"
       },
       "explanations": {
-        "a": "Explanation 1  <a href='www.google.com'>here</a>",
-        "b": "Explanation 2",
-        "c": "Explanation 2",
-        "d": "Explanation 2"
+        "a": "Explanation",
+        "b": "Explanation",
+        "c": "Explanation",
+        "d": "Explanation"
+      },
+      "correctAnswer": "c",
+      "difficulty": "beginner"
+    },
+       {
+      "question": "2. The formula used to calculate the angle of repose is:",
+      "answers": {
+        "a": "θ = tan⁻¹(r / h)",
+        "b": "θ = tan⁻¹(h / r)",
+        "c": "θ = sin⁻¹(h / r)",
+        "d": "θ = cos⁻¹(h / r)"
+      },
+      "explanations": {
+        "a": "Explanation",
+        "b": "Explanation",
+        "c": "Explanation",
+        "d": "Explanation"
+      },
+      "correctAnswer": "b",
+      "difficulty": "beginner"
+    },
+        {
+      "question": "3. A smaller angle of repose indicates:",
+      "answers": {
+        "a": "Better flowability of the powder",
+        "b": "Poor flowability of the powder",
+        "c": "Higher interparticle friction",
+        "d": "Higher cohesiveness"
+      },
+      "explanations": {
+        "a": "Explanation",
+        "b": "Explanation",
+        "c": "Explanation",
+        "d": "Explanation"
       },
       "correctAnswer": "a",
       "difficulty": "beginner"
     },
-    {
-      "question": "2. Angle of repose is used for____",
+        {
+      "question": "4. The instrument used to form the powder pile in this experiment is:",
       "answers": {
-        "a": "Desiging of processing ",
-        "b": "Storage",
-        "c": "conveying system of particulate matter",
-        "d": "All of the above"
+        "a": "Beaker",
+        "b": "Measuring cylinder",
+        "c": "Funnel",
+        "d": "Dropper"
       },
       "explanations": {
-        "a": "Explanation 1  <a href='www.google.com'>here</a>",
-        "b": "Explanation 2",
-        "c": "Explanation 2",
-        "d": "Explanation 2"
+        "a": "Explanation",
+        "b": "Explanation",
+        "c": "Explanation",
+        "d": "Explanation"
       },
-      "correctAnswer": "d",
+      "correctAnswer": "c",
+      "difficulty": "beginner"
+    },
+        {
+      "question": "5. The main factors influencing the angle of repose include:",
+      "answers": {
+        "a": "Temperature, color, and density",
+        "b": "Particle size, shape, and moisture content",
+        "c": "Weight, volume, and color",
+        "d": "Porosity, color, and temperature"
+      },
+      "explanations": {
+        "a": "Explanation",
+        "b": "Explanation",
+        "c": "Explanation",
+        "d": "Explanation"
+      },
+      "correctAnswer": "b",
       "difficulty": "beginner"
     }
   ]
