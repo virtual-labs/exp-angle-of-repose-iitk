@@ -18,7 +18,7 @@
 ● Repeat the experiment with different material types or weights to compare results.<br>
 ● Record all observations and calculate the average angle of repose.<br>
 
-<b>Observations:</b><br>
+<!-- <b>Observations:</b><br>
 
 | **Trial No.** | **Height (h) (cm)** | **Radius (r) (cm)** | **Angle of Repose (θ°)** |
 |----------------|----------------------|----------------------|---------------------------|
