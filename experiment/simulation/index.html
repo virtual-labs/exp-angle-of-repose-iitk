@@ -10,7 +10,7 @@
 <body>
 
   <header>
-    Angle of Repose Virtual Lab - Follow the instructions before starting:- <span style="color: rgb(134, 9, 9);" id="instruction">"click on start simulation button"</span>
+    Angle of Repose Virtual Lab - Follow the instructions before starting:- <span style="color: rgb(134, 9, 9);" id="instruction">"Please Enter weight and select powder and click on start"</span>
   </header>
 
 <div class="container">
@@ -48,20 +48,20 @@
                 <div class="box_container">
                     <div class="product-wrapper">
                      <img src="./image/sodium_cloride_box.png" alt="bottle" class="bottle" >
-                     <img src="./image/chemical powder cap.png" alt="cap" class="cap" id="Nacl" onclick="handleonclick(this)">
+                     <img src="./image/chemical powder cap.png" alt="cap" class="cap" id="Nacl" onclick="handleonclick(this,1)">
                    </div>
                    <div class="product-wrapper">
                     <img src="./image/Nacl_box_ final.png" alt="bottle" class="bottle">
-                    <img src="./image/chemical powder cap.png" alt="cap" class="cap" id="Nacltalc" onclick="handleonclick(this)">
+                    <img src="./image/chemical powder cap.png" alt="cap" class="cap" id="Nacltalc" onclick="handleonclick(this,2)">
                   </div>
                 
                 </div>
 
                 </div>
               <div class="btns">
-                <button class="button">ON</button>
-                <div id="weightcounter" style="color: rgb(6, 180, 6)">0.00 gm</div>
-                <button class="button">Tare</button>
+                <button class="button" onclick="ONBUTTON()">ON</button>
+                <div id="weightcounter" style="color:rgb(134, 127, 127,0);width:100px;text-align: center;">0.00 gm</div>
+                <button class="button" onclick="TAREBUTTON()">Tare</button>
               </div>
             </div>
             <!-- Overlay and Popup -->
