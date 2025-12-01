@@ -1,0 +1,12 @@
+
+/home/runner/work/exp-angle-of-repose-iitk/exp-angle-of-repose-iitk/experiment/simulation/script.js
+    8:11  warning  'startSimulation' is defined but never used  no-unused-vars
+   38:12  warning  'ONBUTTON' is defined but never used         no-unused-vars
+   52:12  warning  'TAREBUTTON' is defined but never used       no-unused-vars
+   61:13  warning  'handleonclick' is defined but never used    no-unused-vars
+   84:12  warning  'spatulaonclick' is defined but never used   no-unused-vars
+  115:13  warning  'petridishmove' is defined but never used    no-unused-vars
+  145:12  warning  'closePopup' is defined but never used       no-unused-vars
+
+✖ 7 problems (0 errors, 7 warnings)
+

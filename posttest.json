@@ -1,0 +1,90 @@
+{
+  "version": 2.0,
+  "questions": [
+    {
+      "question": "1. If the angle of repose of a powder is found to be 35°, its flow property is:",
+      "answers": {
+        "a": "Excellent",
+        "b": "Good to fair",
+        "c": "Poor",
+        "d": "Very poor"
+      },
+      "explanations": {
+        "a": "Explanation",
+        "b": "Explanation",
+        "c": "Explanation",
+        "d": "Explanation"
+      },
+      "correctAnswer": "b",
+      "difficulty": "beginner"
+    },
+       {
+      "question": "2. When θ < 30°, the material shows:",
+      "answers": {
+        "a": "Excellent flow properties",
+        "b": "Poor flow properties",
+        "c": "No flow",
+        "d": "Cohesive behavior"
+      },
+      "explanations": {
+        "a": "Explanation",
+        "b": "Explanation",
+        "c": "Explanation",
+        "d": "Explanation"
+      },
+      "correctAnswer": "a",
+      "difficulty": "beginner"
+    },
+        {
+      "question": "3. In the virtual lab, the angle of repose is calculated using the measured values of:",
+      "answers": {
+        "a": "Volume and weight",
+        "b": "Height and radius of the pile",
+        "c": "Mass and density",
+        "d": "Temperature and pressure"
+      },
+      "explanations": {
+        "a": "Explanation",
+        "b": "Explanation",
+        "c": "Explanation",
+        "d": "Explanation"
+      },
+      "correctAnswer": "b",
+      "difficulty": "beginner"
+    },
+        {
+      "question": "4. For a given powder, increasing moisture content generally:",
+      "answers": {
+        "a": "Improves flowability",
+        "b": "Reduces flowability due to cohesion",
+        "c": "Has no effect on flow",
+        "d": "Decreases interparticle friction"
+      },
+      "explanations": {
+        "a": "Explanation",
+        "b": "Explanation",
+        "c": "Explanation",
+        "d": "Explanation"
+      },
+      "correctAnswer": "b",
+      "difficulty": "beginner"
+    },
+        {
+      "question": "5. The calculated angle of repose helps in understanding:",
+      "answers": {
+        "a": "Powder flow behavior during handling and processing",
+        "b": "Chemical composition of powder",
+        "c": "Optical properties of the powder",
+        "d": "Thermal stability of the material"
+      },
+      "explanations": {
+        "a": "Explanation",
+        "b": "Explanation",
+        "c": "Explanation",
+        "d": "Explanation"
+      },
+      "correctAnswer": "a",
+      "difficulty": "beginner"
+    }
+  ]
+}
