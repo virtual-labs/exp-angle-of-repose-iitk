@@ -1,0 +1,377 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  
+  
+
+  body {
+    font-family: Arial, sans-serif;
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  header {
+    background-color: #0077cc;
+    color: white;
+    padding: 15px;
+    text-align: center;
+    font-size: 16px;
+    font-weight: bold;
+  }
+  
+  .container {
+    display: flex;
+    height: 100%;
+  }
+  
+.sidebar {
+    width: 22%;
+    background-color: #ffffff;
+    padding: 25px;
+    border-right: 1px solid #e0e0e0;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .sidebar h2 {
+    margin-bottom: 20px;
+    font-size: 20px;
+    color: #333;
+    border-bottom: 1px solid #ddd;
+    padding-bottom: 10px;
+  }
+  
+  .sidebar label {
+    margin-top: 15px;
+    font-weight: 600;
+    color: #444;
+  }
+  
+  .sidebar input,
+  .sidebar select {
+    width: 100%;
+    padding: 10px;
+    margin-top: 8px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    font-size: 16px;
+    transition: border-color 0.3s;
+  }
+  
+  .sidebar input:focus,
+  .sidebar select:focus {
+    outline: none;
+    border-color: #0077cc;
+  }
+  
+  .sidebar button {
+    margin-top: 30px;
+    padding: 12px;
+    background-color: #0077cc;
+    color: white;
+    font-weight: bold;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .sidebar button:hover {
+    background-color: #005fa3;
+  }
+  
+  .main {
+    position: relative;
+    background-color: #ffffff;
+    background-image: url('./image/Labbackground.jpg');
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+  }
+ 
+  .simulation-box{
+    display: flex;
+    gap: 30px;
+    position: absolute;
+    bottom: 0;
+    margin-left: 100px;
+    margin-bottom: 20px;
+    align-items: end;
+  }
+  .simulation-box img{
+    height: 100px;
+    width: 100px;
+  }
+  .img_flowappratus img{
+    height: 150px;
+    width: 200px;
+  }
+
+  .product-wrapper {
+    position: relative;
+  }
+  
+  .bottle {
+    display: block;
+    width: 200px; /* Adjust as needed */
+  }
+  
+  .cap {
+    position: absolute;
+    bottom:82px;
+    left: 5px;
+    max-height: 20px;
+    max-width:  55px; /* Adjust based on your image */
+    z-index: 10;
+  }
+  
+  .weighted_machine{  
+    display: block;
+    min-width:190px;
+    min-height:120px;
+  }
+  .petridish{
+    position: absolute;
+    z-index: 10;
+    bottom:50px;
+    left: 40px;
+    max-height: 60px;
+    max-width: 120px;
+  }
+.powder{
+  max-height: 50px;
+  max-width: 50px;
+  top: 10px;
+  left: 50px;
+  opacity:1;
+}
+.box{
+  opacity: 0;
+}
+  .box_container{
+    display: flex;
+    gap:0px;
+
+  }
+  .btns{
+    display: flex;
+    /* gap: 20px; */
+    position: absolute;
+    bottom: 39px;
+    left: 333px;
+  }
+  .button{
+    background-color: brown;
+    color: #ccc;
+    border: none;
+    padding: 2px;
+    border-radius: 3px;
+  }
+
+
+.opencap{
+  /* transform: translateX(-50px) translateY(-30px); */
+   animation: move 2s ease-in-out forwards ;
+}
+
+@keyframes move {
+0%{
+  transform: translate(0);
+}
+  25%{
+    transform: translateX(0) translateY(-20px);
+  }
+  50%{
+    transform: translateX(-70px) translateY(-20px);
+  }
+  100%{
+    transform: translateX(-70px) translateY(90px);
+  }
+}
+
+.spatula_container {
+  position: relative;
+}
+
+
+.sewfill {
+  position: relative;
+  bottom:-5px;
+  left: -110px;
+  max-width: 30px; /* Adjust as needed */
+  max-height: 30px;
+  z-index: 1;
+  opacity: 0;
+}
+
+.spatulamove_1{
+   animation: spatula1 7s ease-out forwards ;
+}
+
+@keyframes spatula1 {
+0%{
+  transform: translateX(0) translateY(0px);
+}
+  20%{
+   
+    transform: translateX(0px) translateY(-100px);
+  }
+  40%{
+   
+    transform: translateX(190px) translateY(-100px);
+  }
+  60%{
+   
+    transform: translateX(190px) translateY(-70px);
+  }
+  70%{
+    transform: translateX(190px) translateY(-100px);
+  }
+  80%{
+   
+    transform: translateX(-130px) translateY(-110px);
+  }
+  100%{
+    
+  }
+}
+
+
+.spatulamove_2{
+  animation: spatula2 7s ease-out forwards ;
+}
+
+@keyframes spatula2 {
+0%{
+ transform: translateX(0) translateY(0px);
+}
+ 20%{
+  
+   transform: translateX(0px) translateY(-100px);
+ }
+ 40%{
+  
+   transform: translateX(290px) translateY(-100px);
+ }
+ 60%{
+  
+   transform: translateX(290px) translateY(-70px);
+ }
+ 70%{
+   transform: translateX(290px) translateY(-100px);
+ }
+ 80%{
+  
+   transform: translateX(-130px) translateY(-110px);
+ }
+ 100%{
+   
+ }
+}
+
+  .petridishmove{
+    animation: petridish 6s ease-out forwards ;
+  }
+
+  @keyframes petridish {
+    0%{
+      /* transform: translateX(0) translateY(0px); */
+    }
+      25%{
+        transform: translateX(0px) translateY(-100px);
+      }
+      50%{        
+       transform: translateX(-150px) translateY(-100px);
+      }
+      75%{
+        transform: translateX(-150px) translateY(-96px) rotateZ(-45deg);
+      }
+      100%{       
+        /* transform: translateX(-150px) translateY(-96px) rotateZ(-45deg); */
+       
+      }
+    } 
+  
+    .petridishpowdermove{
+      animation: petridishpodermove 8s ease-out forwards ;
+    }
+
+
+    @keyframes petridishpodermove {
+      0%{
+        /* transform: translateX(0) translateY(0px); */
+      }
+        20%{
+          transform: translateX(0px) translateY(-100px);
+        }
+        40%{        
+         transform: translateX(-150px) translateY(-100px);
+        }
+        
+        60%{       
+          transform: translateX(-170px) translateY(-96px) rotateZ(-45deg);
+           
+        }
+        70%{       
+          transform: translateX(-185px) translateY(-80px);
+         
+        }
+        90%{
+          transform: translateX(-200px) translateY(-10px) scale(0.5);
+        }
+        95%{
+          transform: translateX(-200px) translateY(30px) scale(0.4);
+        }
+        100%{       
+          transform: translateX(-185px) translateY(60px) ;
+         
+        }
+      } 
+
+
+  
+      /* Overlay that blurs the background */
+      #overlay {
+        position: fixed;
+        top: 0;
+        left: 0;
+        height: 100vh;
+        width: 100vw;
+        background: rgba(0, 0, 0, 0.5); /* semi-transparent */
+        backdrop-filter: blur(5px);
+        display: none;
+        justify-content: center;
+        align-items: center;
+        z-index: 1000;
+      }
+  
+      /* Popup box */
+      #popup {
+        background: white;
+        padding: 30px;
+        border-radius: 10px;
+        box-shadow: 0 0 20px rgba(0,0,0,0.3);
+        width: 300px;
+        animation: fadeIn 0.3s ease-in-out;
+      }
+  
+      #popup input, #popup button {
+        margin-top: 10px;
+        width: 100%;
+        padding: 8px;
+        font-size: 1em;
+      }
+  
+      #result {
+        margin-top: 15px;
+      }
+  
+      @keyframes fadeIn {
+        from { transform: scale(0.9); opacity: 0; }
+        to { transform: scale(1); opacity: 1; }
+      }

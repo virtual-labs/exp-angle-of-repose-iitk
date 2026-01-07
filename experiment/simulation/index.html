@@ -1,13 +1,82 @@
+
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-	<!-- Add CSS at the head of HTML file -->
-    <link rel="stylesheet" href="./css/main.css">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Angle of Repose Virtual Lab</title>
+  <link rel="stylesheet" href="style.css" />
 </head>
 <body>
-		<!-- Your code goes here-->
 
-	<!-- Add JS at the bottom of HTML file --> 
-        <script src="./js/main.js"></script>
+  <header>
+    Angle of Repose Virtual Lab - Follow the instructions before starting:- <span style="color: rgb(134, 9, 9);" id="instruction">"Please Enter weight and select powder and click on start"</span>
+  </header>
+
+<div class="container">
+    <!-- Sidebar -->
+    <div class="sidebar">
+      <h2>Experiment Inputs</h2>
+      <!-- Weight Input -->
+      <label for="weight">Weight of Powder (grams):</label>
+      <input type="number" id="weight" placeholder="Enter weight in grams" min="10" required />
+
+      <!-- Powder Type -->
+      <label for="powder">Powder Type:</label>
+      <select id="powder">
+        <option value="1">NaCl (Salt)</option>
+        <option value="2">NaCl (Salt)+Talc</option>
+        <!-- <option value="CaCO3">CaCO₃ (Calcium Carbonate)</option>
+        <option value="CaCo3+talc">CaCo3+Talc</option> -->
+      </select>
+
+       <button onclick="startSimulation()">Start Simulation</button>
+    </div>        
+      <!-- Main Lab Panel -->
+            <div class="main">
+                <div class="simulation-box" id="simBox">
+                   <div class="img_flowappratus"><img src="./image/flow appratus.png" alt="flowapparture"></div>
+                   <div class="product-wrapper">
+                    <img src="./image/weight machine.png" alt="" class="weighted_machine">
+                    <img src="./image/petridish.png" alt="" class="petridish" id="petridishmove1" onclick="petridishmove()">
+                    <img src="./image/chemical powder in spatualla.png" alt="" class="petridish" id="powderid1" onclick="petridishmove()">
+                  </div>
+                  <div class="spatula_container" onclick="spatulaonclick(this)">
+                        <img src="./image/spatulla.png" alt="" class="spatula" id="spatu">
+                        <img src="./image/chemical powder in spatualla.png" alt="" class="sewfill" id="powd">
+                  </div>
+                <div class="box_container">
+                    <div class="product-wrapper">
+                     <img src="./image/sodium_cloride_box.png" alt="bottle" class="bottle" >
+                     <img src="./image/chemical powder cap.png" alt="cap" class="cap" id="Nacl" onclick="handleonclick(this,1)">
+                   </div>
+                   <div class="product-wrapper">
+                    <img src="./image/Nacl_box_ final.png" alt="bottle" class="bottle">
+                    <img src="./image/chemical powder cap.png" alt="cap" class="cap" id="Nacltalc" onclick="handleonclick(this,2)">
+                  </div>
+                
+                </div>
+
+                </div>
+              <div class="btns">
+                <button class="button" onclick="ONBUTTON()">ON</button>
+                <div id="weightcounter" style="color:rgb(134, 127, 127,0);width:100px;text-align: center;">0.00 gm</div>
+                <button class="button" onclick="TAREBUTTON()">Tare</button>
+              </div>
+            </div>
+            <!-- Overlay and Popup -->
+     <div id="overlay">
+      <div id="popup">
+        <div id="result"></div>
+        <button onclick="closePopup()">Restart Experiment</button>
+      </div>
+    </div>
+</div>
+        
+
+    <script src="script.js"></script>
 </body>
 </html>
+        
+
+
