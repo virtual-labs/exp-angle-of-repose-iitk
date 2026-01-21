@@ -9,12 +9,7 @@
         "c": "The angle between the horizontal surface and the slope of a pile of powder",
         "d": "The angle formed by the radius and the base"
       },
-      "explanations": {
-        "a": "Explanation",
-        "b": "Explanation",
-        "c": "Explanation",
-        "d": "Explanation"
-      },
+      
       "correctAnswer": "c",
       "difficulty": "beginner"
     },
@@ -26,12 +21,7 @@
         "c": "θ = sin⁻¹(h / r)",
         "d": "θ = cos⁻¹(h / r)"
       },
-      "explanations": {
-        "a": "Explanation",
-        "b": "Explanation",
-        "c": "Explanation",
-        "d": "Explanation"
-      },
+      
       "correctAnswer": "b",
       "difficulty": "beginner"
     },
@@ -43,12 +33,7 @@
         "c": "Higher interparticle friction",
         "d": "Higher cohesiveness"
       },
-      "explanations": {
-        "a": "Explanation",
-        "b": "Explanation",
-        "c": "Explanation",
-        "d": "Explanation"
-      },
+      
       "correctAnswer": "a",
       "difficulty": "beginner"
     },
@@ -60,12 +45,7 @@
         "c": "Funnel",
         "d": "Dropper"
       },
-      "explanations": {
-        "a": "Explanation",
-        "b": "Explanation",
-        "c": "Explanation",
-        "d": "Explanation"
-      },
+     
       "correctAnswer": "c",
       "difficulty": "beginner"
     },
@@ -77,12 +57,7 @@
         "c": "Weight, volume, and color",
         "d": "Porosity, color, and temperature"
       },
-      "explanations": {
-        "a": "Explanation",
-        "b": "Explanation",
-        "c": "Explanation",
-        "d": "Explanation"
-      },
+      
       "correctAnswer": "b",
       "difficulty": "beginner"
     }
