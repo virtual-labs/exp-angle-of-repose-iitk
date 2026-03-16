@@ -100,6 +100,7 @@ let checkstart=0;
        animateWeight(weight);
          checkspatula++;
          document.getElementById('instruction').innerHTML='"Now click on petridish"';
+               
     },6000);
 
      setTimeout(function() {
@@ -119,10 +120,18 @@ let checkstart=0;
     else{
     document.getElementById('petridishmove1').classList.toggle('petridishmove');
     document.getElementById('powderid1').classList.toggle('petridishpowdermove'); 
+
+    setTimeout(()=>{
+        let img = document.getElementById("img-box2");
+        img.style.animation = "moveUp 3s linear forwards";
+        document.getElementById("img-box1").style.animation = "flowDown 4s linear forwards";
+    },6000);
+
     setTimeout(() => {
       document.getElementById("overlay").style.display = "flex";
-      calculateRepose(weight);
-    }, 8000);
+        let material=document.getElementById
+       calculateRepose(weight,powderselect);
+    }, 10000);
   }}
   
 
@@ -138,6 +147,7 @@ let checkstart=0;
       count++;
       if (count >= 20) clearInterval(interval);
     },100);
+      
   }
 
 
@@ -150,25 +160,43 @@ let checkstart=0;
     }, 100);
   }
 
-  function calculateRepose(weight) {
-    // const weight = parseFloat(document.getElementById("weightInput").value);
-    if (isNaN(weight) || weight <= 0) {
-      alert("Please enter a valid weight.");
-      return;
-    }
-  
-    const density = 0.5; // g/cm³
-    const volume = weight / density; // cm³
+ 
 
-    const height = Math.cbrt(volume).toFixed(2); // cube root of volume
-    const radius = (height / Math.tan((35 * Math.PI) / 180)).toFixed(2); // angle ≈ 35°
-    const angleRad = Math.atan(height / radius);
-    const angleDeg = (angleRad * 180 / Math.PI).toFixed(2);
+function calculateRepose(weight, material) {
 
-    document.getElementById("result").innerHTML = `
-      <p><strong>Height:</strong> ${height} cm</p>
-      <p><strong>Radius:</strong> ${radius} cm</p>
-      <p><strong>Angle of Repose:</strong> ${angleDeg}°</p>
-    `;
+  if (isNaN(weight) || weight <= 0) {
+    alert("Please enter a valid weight.");
+    return;
   }
+
+  let density;
+  let angle;
+
+  // Different values for different powders
+  if (material === "1") {
+    density = 0.5;   // g/cm³
+    angle = 35;      // NaCl angle
+    material="Nacl";
+  } 
+  else if (material === "2") {
+    density = 0.45;  // mixture density
+    angle = 37;      // mixture angle
+    material="Nacl+Talc";
+  }
+
+  const volume = weight / density;
+
+  const height = Math.cbrt(volume).toFixed(2);
+  const radius = (height / Math.tan((angle * Math.PI) / 180)).toFixed(2);
+
+  const angleRad = Math.atan(height / radius);
+  const angleDeg = (angleRad * 180 / Math.PI).toFixed(2);
+
+  document.getElementById("result").innerHTML = `
+    <p><strong>Material:</strong> ${material}</p>
+    <p><strong>Height:</strong> ${height} cm</p>
+    <p><strong>Radius:</strong> ${radius} cm</p>
+    <p><strong>Angle of Repose:</strong> ${angleDeg}°</p>
+  `;
+}
 
