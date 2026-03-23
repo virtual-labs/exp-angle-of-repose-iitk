@@ -107,13 +107,69 @@
     height: 100px;
     width: 100px;
   }
-  .img_flowappratus img{
-    height: 150px;
-    width: 200px;
+  .img_flowappratus{
+    background-image: url("./image/jack\ Mounted\ machine.png");
+    background-size: cover;
+    background-position: center;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+     margin-left: 50px;
+    height: 200px;
+    width: 150px;
   }
+ 
 
   .product-wrapper {
     position: relative;
+  }
+
+  .content{
+    margin-right: 10px;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap:0px;
+}
+.content img:nth-child(2){
+    position: relative;
+    top: -20px;
+}
+.content #img-box1 {
+    width:20px;
+    height: 50px;
+    opacity: 0;
+    /* animation: flowDown 4s linear forwards; */
+}
+.content #img-box2 {
+    width:50px;
+    height: 50px;
+    margin-bottom: 10px;
+    opacity: 0;
+    /* animation: moveUp 3s linear forwards; */
+}
+@keyframes flowDown{
+    from{
+        transform: translateY(0);
+        opacity: 1;
+    }
+    to{
+        transform: translateY(40px);
+        opacity: 0;
+    }
+}
+
+/* bottom to up */
+@keyframes moveUp{
+    from{
+        transform: translateY(10px);
+        opacity: 0;
+    }
+    to{
+        transform: translateY(0);
+        opacity: 1;
+    }
   }
   
   .bottle {
@@ -283,13 +339,13 @@
       /* transform: translateX(0) translateY(0px); */
     }
       25%{
-        transform: translateX(0px) translateY(-100px);
+        transform: translateX(0px) translateY(-160px);
       }
       50%{        
-       transform: translateX(-150px) translateY(-100px);
+       transform: translateX(-150px) translateY(-160px);
       }
       75%{
-        transform: translateX(-150px) translateY(-96px) rotateZ(-45deg);
+        transform: translateX(-150px) translateY(-145px) rotateZ(-45deg);
       }
       100%{       
         /* transform: translateX(-150px) translateY(-96px) rotateZ(-45deg); */
@@ -298,7 +354,7 @@
     } 
   
     .petridishpowdermove{
-      animation: petridishpodermove 8s ease-out forwards ;
+      animation: petridishpodermove 6s ease-out forwards ;
     }
 
 
@@ -306,31 +362,23 @@
       0%{
         /* transform: translateX(0) translateY(0px); */
       }
-        20%{
-          transform: translateX(0px) translateY(-100px);
+        25%{
+          transform: translateX(0px) translateY(-160px);
         }
-        40%{        
-         transform: translateX(-150px) translateY(-100px);
+        50%{        
+         transform: translateX(-150px) translateY(-160px);
         }
         
-        60%{       
-          transform: translateX(-170px) translateY(-96px) rotateZ(-45deg);
-           
+        75%{       
+          transform: translateX(-160px) translateY(-140px) rotateZ(-45deg);
+          opacity: 1;
         }
-        70%{       
-          transform: translateX(-185px) translateY(-80px);
-         
+      100%{       
+         transform: translateX(-170px) translateY(-100px) rotateZ(-45deg);
+            opacity: 0;
         }
-        90%{
-          transform: translateX(-200px) translateY(-10px) scale(0.5);
-        }
-        95%{
-          transform: translateX(-200px) translateY(30px) scale(0.4);
-        }
-        100%{       
-          transform: translateX(-185px) translateY(60px) ;
-         
-        }
+       
+       
       } 
 
 
